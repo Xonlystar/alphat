@@ -22,9 +22,6 @@ cache:
   - $HOME/.cache/electron-builder
   - $HOME/.npm/_prebuilds
 
-install:
-  - npm install
-
 script:
   - npm run build
 

@@ -1,0 +1,66 @@
+{
+  "name": "AlphaT",
+  "version": "0.5.1",
+  "description": "AlphaT is a free doc tranlation application, it powerd by machine tranlation engines, help you translate your documents quickly and easily.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -p onTagOrDraft"
+  },
+  "keywords": [
+    "cat",
+    "machine",
+    "translation"
+  ],
+  "author": "sigoden huang <sigoden@gmail.com> (https://sigoden.com)",
+  "license": "MIT",
+  "dependencies": {
+    "brace": "^0.10.0",
+    "electron-settings": "^3.1.1",
+    "google-translate-api": "^2.3.0",
+    "i18next": "^9.0.0",
+    "i18next-browser-languagedetector": "^2.0.0",
+    "jquery-i18next": "^1.2.0",
+    "md5": "^2.2.1",
+    "require-directory": "^2.1.1",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-builder": "^19.19.1",
+    "electron-reload": "^1.2.1"
+  },
+  "homepage": "https://sigoden-alphat.github.io",
+  "repository": "https://github.com/sigoden/alphat",
+  "build": {
+    "appId": "com.sigoden.alphat",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "category": "Utility",
+      "target": [
+        "deb",
+        "AppImage"
+      ]
+    }
+  }
+}

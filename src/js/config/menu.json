@@ -1,0 +1,54 @@
+[
+  {
+    "type": "item",
+    "icon": "file-text2",
+    "name": "new",
+    "shortcut": {
+      "darwin": "⌘N",
+      "default": "Ctrl+N"
+    }
+  },
+  {
+    "type": "item",
+    "icon": "folder-open",
+    "name": "history",
+    "shortcut": {
+      "darwin": "⌘O",
+      "default": "Ctrl+O"
+    }
+  },
+  {
+    "type": "item",
+    "icon": "cog",
+    "name": "settings",
+    "shortcut": {
+      "darwin": "⌘P",
+      "default": "Ctrl+P"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "item",
+    "name": "save",
+    "shortcut": {
+      "darwin": "⌘S",
+      "default": "Ctrl+S"
+    }
+  },
+  {
+    "type": "item",
+    "icon": "drawer",
+    "name": "exportBoth"
+  },
+  {
+    "type": "item",
+    "name": "exportDst",
+    "icon": "drawer2",
+    "shortcut": {
+      "darwin": "⌘E",
+      "default": "Ctrl+E"
+    }
+  }
+]

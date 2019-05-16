@@ -9,8 +9,8 @@
   ],
   "publish": {
     "provider": "github",
-    "owner": "onlystar",
-    "repo": "hexo-blog-client"
+    "owner": "Xonlystar",
+    "repo": "alphat"
   },
   "dmg": {
     "contents": [

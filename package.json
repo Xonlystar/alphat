@@ -16,12 +16,7 @@
   "license": "Apache License, Version 2.0",
   "scripts": {
     "serve": "vue-cli-service electron:serve",
-    "build": "vue-cli-service electron:build",
-    "vue:serve": "vue-cli-service serve",
-    "vue:build": "vue-cli-service build",
-    "vue:lint": "vue-cli-service lint",
-    "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
+    "build": "vue-cli-service electron:build"
   },
   "dependencies": {
     "axios": "^0.18.0",

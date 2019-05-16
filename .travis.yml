@@ -4,26 +4,22 @@ dist: trusty
 sudo: false
 
 language: node_js
-node_js: "8"
+node_js:
+  - "node"
 
-env:
-  global:
-    - ELECTRON_CACHE=$HOME/.cache/electron
-    - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
-
-os:
-  - linux
-  - osx
+matrix:
+  include:
+    - os: osx
+    - os: linux
 
 cache:
   directories:
-  - node_modules
-  - $HOME/.cache/electron
-  - $HOME/.cache/electron-builder
-  - $HOME/.npm/_prebuilds
+    - node_modules
 
 install:
+  - npm uninstall hexo --save
   - npm install
+  - npm install hexo --save
 
 script:
   - npm run build

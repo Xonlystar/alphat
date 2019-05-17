@@ -38,14 +38,14 @@ git clone https://github.com/Xonlystar/hexo-blog-client.git
 ```
 安装依赖并运行
 ```bash
-# 使用npm 或者 yarn 安装依赖
-npm install // yarn
+# 使用npm 安装依赖
+npm install
 
 # 开发模式
-npm run serve // yarn serve
+npm start
 
 # 打包
-npm run build // yarn build
+npm run release
 ```
 
 注意

@@ -59,6 +59,7 @@
         ]
       }
     ],
+    "executableName": "HexoBlogClient",
     "icon": "public/icons"
   }
 }

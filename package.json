@@ -15,11 +15,11 @@
   "homepage": "https://github.com/Xonlystar/hexo-vue-client.git",
   "license": "Apache License, Version 2.0",
   "scripts": {
-    "serve": "vue-cli-service electron:serve",
-    "build": "vue-cli-service electron:build",
-    "vue:serve": "vue-cli-service serve",
-    "vue:build": "vue-cli-service build",
-    "vue:lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
